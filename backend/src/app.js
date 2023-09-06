@@ -77,7 +77,7 @@ app.get("/profiles/magic-link", async (req, res) => {
  * Updates comes in the form:
  * {id, username, website, avatarURL, updated_at}
  *
- * This faces issues when ran on the server side due to RLS
+ * This faces issues when ran on the server side due to RLS, need to figure out a way to pass auth details
  */
 app.put("/profiles", async (req, res) => {
   const { updates } = req.body;
@@ -96,11 +96,19 @@ app.put("/profiles", async (req, res) => {
   }
 });
 
-app.delete("/profile/:id", async (req, res) => {
-  const { id } = req.params;
+/**
+ * Deletes a user
+ *
+ * Currently it just wipes all attributes of the user in the profiles table without removing the corresponding row
+ * and id
+ *
+ * To do a full delete, we will need to clean the auth.users table as well. Need to write new triggers for that
+ */
+app.delete("/profiles", async (req, res) => {
+  const { id } = req.body;
   try {
     const { data, error } = await supabase
-      .from("profile")
+      .from("profiles")
       .delete()
       .match({ id: id });
     if (error) throw error;
