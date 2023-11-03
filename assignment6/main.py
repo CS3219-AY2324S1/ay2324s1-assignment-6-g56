@@ -1,7 +1,6 @@
 import asyncio
 import time
 import aiohttp
-import requests
 import json
 from categories import categories_list
 
