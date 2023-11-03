@@ -45,8 +45,8 @@ async def fetch_data(number, session: aiohttp.ClientSession):
                 return
             
             data = {
-                "category": categories,
-                "complexity": level,
+                "categories": categories,
+                "difficulty": level,
                 "description": description,
                 "link": QUESTION_URL.format(number), # Link to the problem
                 "slug": slug,
