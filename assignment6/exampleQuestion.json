@@ -1,0 +1,163 @@
+{
+  "code": 200,
+  "data": {
+    "accept_languages": [
+      "java",
+      "c",
+      "cpp",
+      "python2",
+      "python3",
+      "js",
+      "go",
+      "r",
+      "rust",
+      "csharp",
+      "php",
+      "ruby",
+      "swift",
+      "typescript",
+      "objc",
+      "scala2",
+      "erlang",
+      "kotlin"
+    ],
+    "accepted_rate": 58,
+    "cat": null,
+    "challenge": "",
+    "clarification": "",
+    "clock_in_problem": false,
+    "comment_count": 0,
+    "company_tags": [],
+    "connection_text": "Only $39.9 for the \"Twitter Comment System Project Practice\" within a limited time of 7 days!\n\nWeChat Notes Twitter for more information\uff08WeChat ID jiuzhang15\uff09",
+    "contest": null,
+    "contributor_user_list": [],
+    "description": "Given an array of positive integers `n` of length `nums` and an integer `k`, return the sum of **the $k^{th}$ smallest subarray of `nums`.**",
+    "example": "Example 1:\n```\nInput:\nnums = [1, 2, 3]\nk = 4\nOutput:\n3\nExplanation:\nThe subarrays of [1, 2, 3] are:\n[1], [2], [3]\n[1, 2], [2, 3]\n[1, 2, 3]\nThe subarray sums are in ascending order: 1, 2, 3, 3, 5, 6\nThe fourth smallest subarray sum is 3\n```\n\nExample 2:\n```\nInput:\nnums = [2, 2, 6, 6]\nk = 6\nOutput:\n8\nExplanation:\nThe subarrays of [2, 2, 6, 6] are:\n[2], [2], [6], [6]\n[2, 2], [2, 6], [6, 6]\n[2, 2, 6], [2, 6, 6]\n[2, 2, 6, 6]\nThe subarray sums are in ascending order: 2, 2, 4, 6, 6, 8, 10, 12, 14, 16\nThe sixth smallest subarray sum is 8\n\n```",
+    "generatable": true,
+    "has_followed_by": false,
+    "high_light_solution_count": 0,
+    "hint": "",
+    "id": 3736,
+    "in_green_channel": false,
+    "is_completed": false,
+    "is_favorited": false,
+    "is_highlighted": false,
+    "is_locked": false,
+    "is_recommend": false,
+    "is_unlocked": false,
+    "level": 2,
+    "new_notice": "$1 \\leq nums.length \\leq 10 ^4$\n$1 \\leq nums[i] \\leq 5 * 10^4$\n$1 \\leq k \\leq n * (n + 1) \\ / \\ 2$\nIn an array, a subarray is formed from one or more consecutive array elements. The subarray should contain at least one element",
+    "note_count": 0,
+    "notice": "",
+    "official_solution_count": 1,
+    "problem_action_type": 1,
+    "problem_judge_type": 1,
+    "problem_type": 1,
+    "problem_type_tag": {
+      "action_type": 1,
+      "debug_remind": true,
+      "key": 2,
+      "name": "Algorithms",
+      "remind_content": "\u60a8\u53ef\u4ee5\u901a\u8fc7\"print\u65b9\u5f0f\"\u8fdb\u884cdebug\u3002"
+    },
+    "problem_type_tag_id": 2,
+    "recommend_courses": [
+      {
+        "cover_url": "https://jiuzhang-media.oss-cn-hangzhou.aliyuncs.com/new_storage_v2/private/staff/course_title_pic/3/15/7e1fba04-8563-11eb-b7df-0242ac190002/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%B3%95%E9%9D%A2%E8%AF%95%E9%AB%98%E9%A2%91%E9%A2%98%E5%86%B2%E5%88%BA%E7%8F%AD.png?OSSAccessKeyId=LTAImC94doJucLC5&Expires=1699036738&Signature=4z6sOQY4qSLIPMkTcNwhHvn6ik8%3D",
+        "highlight": "\u7cbe\u51c6\u62bc\u9898\uff0c\u62b1\u4f5b\u811a\u7a81\u51fb\u7b97\u6cd5\u9762\u8bd5\uff0c\u6700\u8fd16\u4e2a\u6708\u65b0\u9898/\u96be\u9898/\u9ad8\u9891\u9898\u5168\u8986\u76d6\uff01",
+        "id": 80,
+        "is_visible": true,
+        "source": "PM-lc-problem",
+        "title": "\u6625\u62db\u7b97\u6cd5\u9ad8\u9891\u9898\u51b2\u523a\u73ed",
+        "type": 5
+      }
+    ],
+    "related_problems": [
+      {
+        "accepted_rate": 39,
+        "description": "Given an array $a$ whose length is $n$. You can get $\\frac{n(n+1)}{2}$ subarrays from it.Please calculate the sum of these subarrays, arrange them in ascending order, and return the k-th number after sorting.\n\n---\n ",
+        "id": 1139,
+        "level": 3,
+        "problem_type_id": 2,
+        "problem_type_image": [
+          {
+            "identity": "new_storage_v2/public/staff/unknown/3/31/4a696d42-91ff-11eb-83d2-0242ac1d0002/\u7b97\u6cd5\u5f69\u8272.png",
+            "name": "\u7b97\u6cd5\u5f69\u8272.png",
+            "url": "https://media-cn.lintcode.com/new_storage_v2/public/staff/unknown/3/31/4a696d42-91ff-11eb-83d2-0242ac1d0002/\u7b97\u6cd5\u5f69\u8272.png"
+          }
+        ],
+        "problem_type_info": {
+          "image": [
+            {
+              "identity": "new_storage_v2/public/staff/unknown/3/31/4a696d42-91ff-11eb-83d2-0242ac1d0002/\u7b97\u6cd5\u5f69\u8272.png",
+              "name": "\u7b97\u6cd5\u5f69\u8272.png",
+              "url": "https://media-cn.lintcode.com/new_storage_v2/public/staff/unknown/3/31/4a696d42-91ff-11eb-83d2-0242ac1d0002/\u7b97\u6cd5\u5f69\u8272.png"
+            }
+          ],
+          "name": "Algorithms"
+        },
+        "title": "the kth subarray",
+        "unique_name": "the-kth-subarray",
+        "user_status": null
+      }
+    ],
+    "section": null,
+    "simple_exam": {
+      "expire_at_ts": null,
+      "id": null,
+      "is_ongoing": false,
+      "start_at_ts": null,
+      "status": null,
+      "time_limit": null
+    },
+    "solution_count": 1,
+    "status": 1,
+    "submits_tag": 3,
+    "tags": [
+      {
+        "can_hidden": false,
+        "id": 396,
+        "name": "Binary Search",
+        "parent_id": 493,
+        "problem_count": 117,
+        "type": 41,
+        "unique_name": "binary-search"
+      },
+      {
+        "can_hidden": false,
+        "id": 366,
+        "name": "Two Pointers",
+        "parent_id": 493,
+        "problem_count": 120,
+        "type": 41,
+        "unique_name": "two-pointers"
+      },
+      {
+        "can_hidden": false,
+        "id": 367,
+        "name": "Array",
+        "parent_id": 494,
+        "problem_count": 210,
+        "type": 42,
+        "unique_name": "array"
+      }
+    ],
+    "testcase_sample": "[1, 2, 3]\n4",
+    "testdata_sample": [
+      { "type": "int[]", "value": "[1, 2, 3]", "view_type": null },
+      { "type": "int", "value": "4", "view_type": null }
+    ],
+    "time_left": null,
+    "time_limit": 1800,
+    "title": "Kth Smallest Subarray Sum",
+    "topic_count": 0,
+    "total_accepted": 21,
+    "total_submissions": 36,
+    "unique_name": "kth-smallest-subarray-sum",
+    "user_status": "TODO",
+    "version": "v3",
+    "videos": []
+  },
+  "detail": "",
+  "success": true
+}
